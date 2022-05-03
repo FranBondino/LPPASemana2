@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+@font-face {font-family: "TNY Adobe Caslon Pro"; 
+    src: url("https//db.onlinewebfonts.com/t/68e94a17c3e618dbe0936fcbf25b26c6.eot"); 
+    src: url("https//db.onlinewebfonts.com/t/68e94a17c3e618dbe0936fcbf25b26c6.eot?#iefix") format("embedded-opentype"), 
+    url("https//db.onlinewebfonts.com/t/68e94a17c3e618dbe0936fcbf25b26c6.woff2") format("woff2"), 
+    url("https//db.onlinewebfonts.com/t/68e94a17c3e618dbe0936fcbf25b26c6.woff") format("woff"), 
+    url("https//db.onlinewebfonts.com/t/68e94a17c3e618dbe0936fcbf25b26c6.ttf") format("truetype"), 
+    url("https//db.onlinewebfonts.com/t/68e94a17c3e618dbe0936fcbf25b26c6.svg#TNY Adobe Caslon Pro") format("svg"); }
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Reem+Kufi&display=swap');
+
+
+@font-face {font-family: "Irvin";
+  src: url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.eot"); 
+  src: url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.eot?#iefix") format("embedded-opentype"), 
+  url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.woff2") format("woff2"), 
+  url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.woff") format("woff"), 
+  url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.ttf") format("truetype"), 
+  url("https://db.onlinewebfonts.com/t/1e44faec07b8b81f60a3215d76bd0086.svg#Irvin") format("svg"); 
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+nav span {
+    font-family: Irvin;
+    color:red;
+}
+
+.nav_top{
+	width: 100%;
+    margin: 0;
+	height: 55px;
+ 
+}
+#logo {
+    margin-top: 0px;
+    margin-left: 50%;
+}
+.top_list {
+    float:right;
+   
+    margin-right: 20px;
+    
+}
+.top_list ul li{
+    display: inline;
+    padding: 10px;
+
+}
+.top_list ul li a{
+    text-decoration: none;
+    font-family: 'TNY Adobe Caslon Pro';
+}
+.clear{
+    clear: both;
+}
+.menu_bar_container {
+    width: 100%;
+    height: 100px;
+}
+.bottom_list {
+    margin: 0 auto;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+   
+}
+.bottom_list ul {
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+  
+}
+.bottom_list ul li {
+    display: inline;
+    padding: 10px;
+}
+.bottom_list ul li a{
+    text-decoration: none;
+    font-family: 'TNY Adobe Caslon Pro';
+}
+
+body {
+    margin: 40px;
+  }
+  
+  header, main {
+    max-width: 700px;
+  }
+  
+  header h1,
+  header h2 {
+    font-family: Irvin, serif;
+  }
+  
+  header h1 {
+    font-size: 2.8em;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  header h2 {
+    color: red;
+    font-size: .8em;
+  }
+  
+  header p {
+    font-family: 'Reem Kufi', sans-serif;
+  }
+  p {
+      margin-top: 15px;
+  }
+  
+  
+  
+  hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid lightgray;
+  }
+
+  main {
+    margin: 20px 50px;
+    max-width: 550px;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    font-size: 1.3em;
+    line-height: 1.6;
+  }
+  
+  figure {
+    margin: 10px;
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: .8em;
+    line-height: 1.2;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .credit {
+    color: gray;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: .7em;
+  }
+  
+  .credit a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .credit a:hover {
+    text-decoration: underline;
+  }
+  #first-letter {
+    float: left; 
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+  }
+  
+  
+
+
+  
