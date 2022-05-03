@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 @font-face {font-family: "TNY Adobe Caslon Pro"; 
@@ -26,6 +27,7 @@
 	margin:0px;
 	padding:0px;
 }
+
 nav span {
     font-family: Irvin;
     color:red;
@@ -33,24 +35,22 @@ nav span {
 
 .nav_top{
 	width: 100%;
-    margin: 0;
+  margin: 0 auto;
 	height: 55px;
- 
 }
 #logo {
     margin-top: 0px;
     margin-left: 50%;
 }
+
 .top_list {
     float:right;
-   
-    margin-right: 20px;
-    
+    margin-right: 20px;  
 }
+
 .top_list ul li{
     display: inline;
     padding: 10px;
-
 }
 .top_list ul li a{
     text-decoration: none;
@@ -72,9 +72,9 @@ nav span {
 .bottom_list ul {
     display:flex;
     justify-content: center;
-    text-decoration: none;
-  
+    text-decoration: none; 
 }
+
 .bottom_list ul li {
     display: inline;
     padding: 10px;
@@ -168,7 +168,7 @@ body {
     padding-right: 8px;
   }
   
-  
+
 
 
   
