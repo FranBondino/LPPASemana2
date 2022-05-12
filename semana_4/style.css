@@ -81,9 +81,7 @@ nav span {
     font-family: 'TNY Adobe Caslon Pro';
 }
 
-main {
-    max-width: 400px;
-}
+
 header h1,
 header h2 {
     font-family: Irvin, serif;
@@ -110,4 +108,49 @@ header h2 {
     border: 0;
     height: 0;
     border-top: 2px solid lightgray;
+  }
+
+  main {
+    margin: 10px 5px;
+    max-width: 550px;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  figure {
+    margin: 5px;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: .8em;
+    line-height: 1.2;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .credit {
+    color: gray;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: .7em;
+  }
+
+  .credit a {
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .credit a:hover {
+    text-decoration: underline;
+  }
+  #first-letter {
+    float: left; 
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
   }
