@@ -81,7 +81,14 @@ nav span {
     font-family: 'TNY Adobe Caslon Pro';
 }
 
-
+main {
+    max-width: 400px;
+    margin: 20px 50px;
+    max-width: 550px;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
 header h1,
 header h2 {
     font-family: Irvin, serif;
@@ -94,7 +101,7 @@ header h2 {
   
   header h2 {
     color: red;
-    font-size: .8em;
+    font-size: 1em;
   }
 
   header p {
@@ -109,36 +116,28 @@ header h2 {
     height: 0;
     border-top: 2px solid lightgray;
   }
-
-  main {
-    margin: 10px 5px;
-    max-width: 550px;
-    font-family: 'EB Garamond', 'Times New Roman', serif;
-    font-size: 1.1em;
-    line-height: 1.6;
-  }
   
   figure {
-    margin: 5px;
+    margin: 10px;
   }
-
+  
   figcaption {
     font-style: italic;
     font-size: .8em;
     line-height: 1.2;
   }
-
+  
   img {
     max-width: 100%;
   }
-
+  
   .credit {
     color: gray;
     font-family: sans-serif;
     font-style: normal;
     font-size: .7em;
   }
-
+  
   .credit a {
     text-decoration: none;
     color: gray;
@@ -154,3 +153,5 @@ header h2 {
     padding-top: 4px;
     padding-right: 8px;
   }
+
+ 
