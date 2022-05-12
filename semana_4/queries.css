@@ -1,0 +1,52 @@
+@media screen and (min-width:1024px) {
+    .nav_top{
+        width: 100%;
+      margin: 0 auto;
+        height: 55px;
+    }
+    #logo {
+        margin-top: 0px;
+        margin-left: 50%;
+    }
+    
+    .top_list {
+        float:right;
+        margin-right: 20px;  
+    }
+    .top_list ul li{
+        display: inline;
+        padding: 5px;
+    }
+    .bottom_list ul li {
+        display: inline;
+        padding: 10px;
+    }
+    body {
+        margin: 15px;
+      }
+      header, main {
+        max-width: 700px;
+      }
+      header h1 {
+        font-size: 2.8em;
+        font-weight: 400;
+        margin-top: 10px;
+      }
+      p {
+        margin-top: 15px;
+    }
+    hr {
+        border: 0;
+        height: 0;
+        border-top: 1px solid lightgray;
+      }
+
+      main {
+        margin: 20px 50px;
+        max-width: 550px;
+        font-family: 'EB Garamond', 'Times New Roman', serif;
+        font-size: 1.3em;
+        line-height: 1.6;
+      }
+      
+}
